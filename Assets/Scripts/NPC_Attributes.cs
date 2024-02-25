@@ -12,6 +12,7 @@ public class NPC_Attributes : MonoBehaviour
 
     public int isWalkingHash;
     public int playerSpotHash;
+    public int combatHash;
     
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class NPC_Attributes : MonoBehaviour
         animator = GetComponent<Animator>();
         isWalkingHash = Animator.StringToHash("IsWalking");
         playerSpotHash = Animator.StringToHash("PlayerSpot");
+        combatHash = Animator.StringToHash("Combat");
     }
     
     void Update()

@@ -17,12 +17,13 @@ public class NPC_PatrolState : NPC_BaseState
 
     public override void UpdateState(NPC_StateManager npc)
     {
+        reference.animator.SetBool(reference.isWalkingHash,true);
         if (fov.playerSpotted)
         {
+            reference.animator.SetBool(reference.isWalkingHash,false);
             npc.SwitchState(npc.chaseState);
         }
-        reference.animator.SetBool(reference.isWalkingHash,true);
-        
+
         if (!reference.nav.pathPending && reference.nav.remainingDistance < 0.5f)
         {
             if (reference.points.Length == 0)

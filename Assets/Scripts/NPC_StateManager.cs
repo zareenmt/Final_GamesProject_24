@@ -7,6 +7,7 @@ public class NPC_StateManager : MonoBehaviour
     NPC_BaseState currentState;
     public NPC_PatrolState patrolState = new NPC_PatrolState();
     public NPC_ChaseState chaseState = new NPC_ChaseState();
+    public NPC_IdleState idleState = new NPC_IdleState();
     
     void Start()
     {
