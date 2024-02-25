@@ -49,7 +49,6 @@
      <Compile Include="Assets\Scripts\NPC_StateManager.cs" />
      <Compile Include="Assets\Scripts\FieldOfView.cs" />
      <Compile Include="Assets\Scripts\NPC_Attributes.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\NPC_BaseState.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scenes\SampleScene" />

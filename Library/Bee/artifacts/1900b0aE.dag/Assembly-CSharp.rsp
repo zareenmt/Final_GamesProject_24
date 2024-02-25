@@ -356,7 +356,6 @@
 "Assets/Scripts/NPC_PatrolState.cs"
 "Assets/Scripts/NPC_StateManager.cs"
 "Assets/Scripts/Pathfinding.cs"
-"Assets/Scripts/PlayerMovement.cs"
 -langversion:9.0
 
 /deterministic
